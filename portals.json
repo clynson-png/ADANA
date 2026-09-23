@@ -1,6 +1,6 @@
 {
   "schema": "HCI_ATHLETE_PORTAL_PUBLICATION_MANIFEST_V1",
-  "generatedAt": "2026-09-23T20:11:32.724Z",
+  "generatedAt": "2026-09-23T20:33:27.163Z",
   "sourceAuthority": "HCI20_LOCAL_CANONICAL_SQLITE",
   "athleteCount": 2,
   "portals": [
@@ -38,14 +38,14 @@
           }
         ]
       },
-      "portalPersistedAt": "2026-09-23T20:09:28.944Z",
+      "portalPersistedAt": "2026-09-23T20:25:40.722Z",
       "staleAfterDays": 10,
       "sourcePlanId": "SCATT_ATHLETE_CHATEAUBRIAN_SPECIFIC_PREPARATION_PLAN",
       "sourcePlanVersionId": "SCATT_ATHLETE_CHATEAUBRIAN_SPECIFIC_PREPARATION_PLAN_V6",
       "sourcePlanVersion": 6,
       "publicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
       "portal": "chateubrian/athlete.html",
-      "publishedAt": "2026-09-23T20:11:32.724Z"
+      "publishedAt": "2026-09-23T20:33:27.163Z"
     },
     {
       "athleteName": "LEAD LOCAL TEST",
@@ -77,14 +77,14 @@
           }
         ]
       },
-      "portalPersistedAt": "2026-09-23T20:09:28.944Z",
+      "portalPersistedAt": "2026-09-23T20:25:40.722Z",
       "staleAfterDays": 10,
       "sourcePlanId": "ATH_0EB67FBEBE8574B5A8F9_SPECIFIC_PREPARATION_PLAN",
       "sourcePlanVersionId": "ATH_0EB67FBEBE8574B5A8F9_SPECIFIC_PREPARATION_PLAN_V6",
       "sourcePlanVersion": 6,
       "publicationUrl": "https://clynson-png.github.io/ADANA/lead-local-test/athlete.html",
       "portal": "lead-local-test/athlete.html",
-      "publishedAt": "2026-09-23T20:11:32.724Z"
+      "publishedAt": "2026-09-23T20:33:27.163Z"
     }
   ]
 }

@@ -1,0 +1,90 @@
+{
+  "schema": "HCI_ATHLETE_PORTAL_PUBLICATION_MANIFEST_V1",
+  "generatedAt": "2026-09-23T19:47:05.903Z",
+  "sourceAuthority": "HCI20_LOCAL_CANONICAL_SQLITE",
+  "athleteCount": 2,
+  "portals": [
+    {
+      "athleteName": "Chateaubrian",
+      "slug": "chateubrian",
+      "modality": "PISTOL",
+      "sessions": 3,
+      "predictedNext": 553.85,
+      "predictionMethod": "LOGARITHMIC_TREND",
+      "trainingExportScope": {
+        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
+        "status": "NEEDS_COACH_WINDOW_REVIEW",
+        "labelPt": "4 treinos publicados - janela a revisar pelo coach",
+        "labelEn": "4 published trainings - coach window review required",
+        "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
+        "calendarScopeReliable": false,
+        "startDate": "2026-09-14",
+        "endDate": "2026-09-18",
+        "daySpan": 5,
+        "weekSpan": 1,
+        "monthSpan": 1,
+        "sessionCount": 4,
+        "technicalCount": 3,
+        "physicalCount": 0,
+        "mentalCount": 1,
+        "domains": [
+          {
+            "domain": "MENTAL",
+            "count": 1
+          },
+          {
+            "domain": "TECHNICAL",
+            "count": 3
+          }
+        ]
+      },
+      "portalPersistedAt": "2026-09-23T18:41:44.649Z",
+      "staleAfterDays": 10,
+      "sourcePlanId": "SCATT_ATHLETE_CHATEAUBRIAN_SPECIFIC_PREPARATION_PLAN",
+      "sourcePlanVersionId": "SCATT_ATHLETE_CHATEAUBRIAN_SPECIFIC_PREPARATION_PLAN_V6",
+      "sourcePlanVersion": 6,
+      "publicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
+      "portal": "chateubrian/athlete.html",
+      "publishedAt": "2026-09-23T19:47:05.903Z"
+    },
+    {
+      "athleteName": "LEAD LOCAL TEST",
+      "slug": "lead-local-test",
+      "modality": "PISTOL",
+      "sessions": 3,
+      "predictedNext": 480.21,
+      "predictionMethod": "LOGARITHMIC_TREND",
+      "trainingExportScope": {
+        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
+        "status": "NEEDS_COACH_WINDOW_REVIEW",
+        "labelPt": "5 treinos publicados - janela a revisar pelo coach",
+        "labelEn": "5 published trainings - coach window review required",
+        "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
+        "calendarScopeReliable": false,
+        "startDate": "2026-09-21",
+        "endDate": "2026-09-27",
+        "daySpan": 7,
+        "weekSpan": 1,
+        "monthSpan": 1,
+        "sessionCount": 5,
+        "technicalCount": 5,
+        "physicalCount": 0,
+        "mentalCount": 0,
+        "domains": [
+          {
+            "domain": "TECHNICAL",
+            "count": 5
+          }
+        ]
+      },
+      "portalPersistedAt": "2026-09-23T19:02:17.968Z",
+      "staleAfterDays": 10,
+      "sourcePlanId": "ATH_0EB67FBEBE8574B5A8F9_SPECIFIC_PREPARATION_PLAN",
+      "sourcePlanVersionId": "ATH_0EB67FBEBE8574B5A8F9_SPECIFIC_PREPARATION_PLAN_V6",
+      "sourcePlanVersion": 6,
+      "publicationUrl": "https://clynson-png.github.io/ADANA/lead-local-test/athlete.html",
+      "portal": "lead-local-test/athlete.html",
+      "publishedAt": "2026-09-23T19:47:05.903Z"
+    }
+  ]
+}

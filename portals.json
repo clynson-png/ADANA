@@ -1,8 +1,8 @@
 {
   "schema": "HCI_ATHLETE_PORTAL_PUBLICATION_MANIFEST_V1",
-  "generatedAt": "2026-09-23T20:46:46.047Z",
+  "generatedAt": "2026-09-26T18:34:06.963Z",
   "sourceAuthority": "HCI20_LOCAL_CANONICAL_SQLITE",
-  "athleteCount": 2,
+  "athleteCount": 3,
   "portals": [
     {
       "athleteName": "Chateaubrian",
@@ -85,6 +85,55 @@
       "publicationUrl": "https://clynson-png.github.io/ADANA/lead-local-test/athlete.html",
       "portal": "lead-local-test/athlete.html",
       "publishedAt": "2026-09-23T20:46:46.047Z"
+    },
+    {
+      "athleteName": "NUNES, JANISE",
+      "slug": "nunes-janise",
+      "modality": "PISTOL",
+      "sessions": 5,
+      "predictedNext": 570.3,
+      "predictionMethod": "LOGARITHMIC_TREND",
+      "trainingExportScope": {
+        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
+        "status": "NEEDS_COACH_WINDOW_REVIEW",
+        "labelPt": "7 treinos publicados - janela a revisar pelo coach",
+        "labelEn": "7 published trainings - coach window review required",
+        "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
+        "calendarScopeReliable": false,
+        "startDate": "2026-09-21",
+        "endDate": "2026-09-27",
+        "daySpan": 7,
+        "weekSpan": 1,
+        "monthSpan": 1,
+        "sessionCount": 7,
+        "technicalCount": 5,
+        "physicalCount": 0,
+        "mentalCount": 2,
+        "domains": [
+          {
+            "domain": "MENTAL",
+            "count": 2
+          },
+          {
+            "domain": "TECHNICAL",
+            "count": 5
+          }
+        ]
+      },
+      "portalPersistedAt": "2026-09-24T15:06:39.267Z",
+      "staleAfterDays": 10,
+      "sourcePlanId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN",
+      "sourcePlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V10",
+      "sourcePlanVersion": 10,
+      "currentPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V10",
+      "currentVersionNumber": 10,
+      "currentPlanApprovalStatus": "COACH_APPROVED",
+      "replacementStatus": "CURRENT_APPROVED",
+      "publishedPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V10",
+      "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
+      "publicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
+      "portal": "nunes-janise/athlete.html",
+      "publishedAt": "2026-09-26T18:34:06.963Z"
     }
   ]
 }

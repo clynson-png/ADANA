@@ -1,52 +1,9 @@
 {
   "schema": "HCI_ATHLETE_PORTAL_PUBLICATION_MANIFEST_V1",
-  "generatedAt": "2026-09-26T18:34:06.963Z",
+  "generatedAt": "2026-09-29T23:28:58.409Z",
   "sourceAuthority": "HCI20_LOCAL_CANONICAL_SQLITE",
   "athleteCount": 3,
   "portals": [
-    {
-      "athleteName": "Chateaubrian",
-      "slug": "chateubrian",
-      "modality": "PISTOL",
-      "sessions": 3,
-      "predictedNext": 553.85,
-      "predictionMethod": "LOGARITHMIC_TREND",
-      "trainingExportScope": {
-        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
-        "status": "NEEDS_COACH_WINDOW_REVIEW",
-        "labelPt": "4 treinos publicados - janela a revisar pelo coach",
-        "labelEn": "4 published trainings - coach window review required",
-        "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
-        "calendarScopeReliable": false,
-        "startDate": "2026-09-14",
-        "endDate": "2026-09-18",
-        "daySpan": 5,
-        "weekSpan": 1,
-        "monthSpan": 1,
-        "sessionCount": 4,
-        "technicalCount": 3,
-        "physicalCount": 0,
-        "mentalCount": 1,
-        "domains": [
-          {
-            "domain": "MENTAL",
-            "count": 1
-          },
-          {
-            "domain": "TECHNICAL",
-            "count": 3
-          }
-        ]
-      },
-      "portalPersistedAt": "2026-09-23T20:46:21.217Z",
-      "staleAfterDays": 10,
-      "sourcePlanId": "SCATT_ATHLETE_CHATEAUBRIAN_SPECIFIC_PREPARATION_PLAN",
-      "sourcePlanVersionId": "SCATT_ATHLETE_CHATEAUBRIAN_SPECIFIC_PREPARATION_PLAN_V6",
-      "sourcePlanVersion": 6,
-      "publicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
-      "portal": "chateubrian/athlete.html",
-      "publishedAt": "2026-09-23T20:46:46.047Z"
-    },
     {
       "athleteName": "LEAD LOCAL TEST",
       "slug": "lead-local-test",
@@ -87,11 +44,71 @@
       "publishedAt": "2026-09-23T20:46:46.047Z"
     },
     {
+      "athleteName": "CHATEUBRIAN, PHILIPE",
+      "slug": "chateubrian",
+      "modality": "PISTOL",
+      "sessions": 7,
+      "predictedNext": 575.22,
+      "predictionMethod": "LOGARITHMIC_TREND",
+      "trainingExportScope": {
+        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
+        "status": "NEEDS_COACH_WINDOW_REVIEW",
+        "labelPt": "12 treinos publicados - janela a revisar pelo coach",
+        "labelEn": "12 published trainings - coach window review required",
+        "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
+        "calendarScopeReliable": false,
+        "startDate": "2026-11-01",
+        "endDate": "2026-11-07",
+        "daySpan": 7,
+        "weekSpan": 1,
+        "monthSpan": 1,
+        "sessionCount": 12,
+        "technicalCount": 7,
+        "physicalCount": 4,
+        "mentalCount": 1,
+        "domains": [
+          {
+            "domain": "MENTAL",
+            "count": 1
+          },
+          {
+            "domain": "NEUROMUSCULAR",
+            "count": 4
+          },
+          {
+            "domain": "TECHNICAL",
+            "count": 7
+          }
+        ]
+      },
+      "portalPersistedAt": "2026-09-29T23:12:16.995Z",
+      "adanaStaticKnowledge": {
+        "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
+        "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
+        "modality": "PISTOL",
+        "questionGuideCount": 126,
+        "selectedSourceChunkCount": 94
+      },
+      "staleAfterDays": 10,
+      "sourcePlanId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN",
+      "sourcePlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V18",
+      "sourcePlanVersion": 18,
+      "currentPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V18",
+      "currentVersionNumber": 18,
+      "currentPlanApprovalStatus": "COACH_APPROVED",
+      "replacementStatus": "CURRENT_APPROVED",
+      "publishedPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V18",
+      "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
+      "publicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
+      "portal": "chateubrian/athlete.html",
+      "publishedAt": "2026-09-29T23:28:58.409Z"
+    },
+    {
       "athleteName": "NUNES, JANISE",
       "slug": "nunes-janise",
       "modality": "PISTOL",
-      "sessions": 5,
-      "predictedNext": 570.3,
+      "sessions": 4,
+      "predictedNext": 478.35,
       "predictionMethod": "LOGARITHMIC_TREND",
       "trainingExportScope": {
         "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
@@ -120,20 +137,27 @@
           }
         ]
       },
-      "portalPersistedAt": "2026-09-24T15:06:39.267Z",
+      "portalPersistedAt": "2026-09-29T23:28:06.922Z",
+      "adanaStaticKnowledge": {
+        "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
+        "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
+        "modality": "PISTOL",
+        "questionGuideCount": 126,
+        "selectedSourceChunkCount": 94
+      },
       "staleAfterDays": 10,
       "sourcePlanId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN",
-      "sourcePlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V10",
-      "sourcePlanVersion": 10,
-      "currentPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V10",
-      "currentVersionNumber": 10,
+      "sourcePlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V29",
+      "sourcePlanVersion": 29,
+      "currentPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V29",
+      "currentVersionNumber": 29,
       "currentPlanApprovalStatus": "COACH_APPROVED",
       "replacementStatus": "CURRENT_APPROVED",
-      "publishedPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V10",
+      "publishedPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V29",
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
       "publicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
       "portal": "nunes-janise/athlete.html",
-      "publishedAt": "2026-09-26T18:34:06.963Z"
+      "publishedAt": "2026-09-29T23:28:58.409Z"
     }
   ]
 }

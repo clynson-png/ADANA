@@ -1,6 +1,6 @@
 {
   "schema": "HCI_ATHLETE_PORTAL_PUBLICATION_MANIFEST_V1",
-  "generatedAt": "2026-09-30T00:11:32.859Z",
+  "generatedAt": "2026-09-30T00:55:51.709Z",
   "sourceAuthority": "HCI20_LOCAL_CANONICAL_SQLITE",
   "athleteCount": 3,
   "portals": [
@@ -52,13 +52,13 @@
       "predictionMethod": "LOGARITHMIC_TREND",
       "trainingExportScope": {
         "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
-        "status": "BLOCKED_NO_APPROVED_TRAINING",
+        "status": "NEEDS_COACH_WINDOW_REVIEW",
         "labelPt": "12 treinos publicados - janela a revisar pelo coach",
         "labelEn": "12 published trainings - coach window review required",
         "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
         "calendarScopeReliable": false,
-        "startDate": "2026-11-01",
-        "endDate": "2026-11-07",
+        "startDate": "2026-08-17",
+        "endDate": "2026-08-23",
         "daySpan": 7,
         "weekSpan": 1,
         "monthSpan": 1,
@@ -68,23 +68,24 @@
         "mentalCount": 1,
         "domains": [
           {
+            "domain": "AEROBIC",
+            "count": 2
+          },
+          {
             "domain": "MENTAL",
             "count": 1
           },
           {
             "domain": "NEUROMUSCULAR",
-            "count": 4
+            "count": 2
           },
           {
             "domain": "TECHNICAL",
             "count": 7
           }
-        ],
-        "blockedReason": "CURRENT_PLAN_REQUIRES_COACH_APPROVAL",
-        "currentPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V25",
-        "publishedPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V18"
+        ]
       },
-      "portalPersistedAt": "2026-09-29T23:12:16.995Z",
+      "portalPersistedAt": "2026-09-30T00:54:37.567Z",
       "adanaStaticKnowledge": {
         "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
         "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
@@ -94,18 +95,17 @@
       },
       "staleAfterDays": 10,
       "sourcePlanId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN",
-      "sourcePlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V18",
-      "sourcePlanVersion": 18,
+      "sourcePlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V32",
+      "sourcePlanVersion": 32,
       "currentPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V32",
       "currentVersionNumber": 32,
       "currentPlanApprovalStatus": "COACH_APPROVED",
       "replacementStatus": "CURRENT_APPROVED",
-      "publishedPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V18",
+      "publishedPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V32",
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
-      "blockedByCurrentPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V25",
       "publicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
       "portal": "chateubrian/athlete.html",
-      "publishedAt": "2026-09-30T00:11:32.859Z"
+      "publishedAt": "2026-09-30T00:55:51.709Z"
     },
     {
       "athleteName": "NUNES, JANISE",
@@ -116,16 +116,16 @@
       "predictionMethod": "LOGARITHMIC_TREND",
       "trainingExportScope": {
         "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
-        "status": "BLOCKED_NO_APPROVED_TRAINING",
+        "status": "NEEDS_COACH_WINDOW_REVIEW",
         "labelPt": "7 treinos publicados - janela a revisar pelo coach",
         "labelEn": "7 published trainings - coach window review required",
         "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
         "calendarScopeReliable": false,
-        "startDate": "2026-09-21",
-        "endDate": "2026-09-27",
+        "startDate": "2026-09-28",
+        "endDate": "2026-10-04",
         "daySpan": 7,
         "weekSpan": 1,
-        "monthSpan": 1,
+        "monthSpan": 2,
         "sessionCount": 7,
         "technicalCount": 5,
         "physicalCount": 0,
@@ -139,12 +139,9 @@
             "domain": "TECHNICAL",
             "count": 5
           }
-        ],
-        "blockedReason": "CURRENT_PLAN_REQUIRES_COACH_APPROVAL",
-        "currentPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V36",
-        "publishedPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V29"
+        ]
       },
-      "portalPersistedAt": "2026-09-29T23:51:33.442Z",
+      "portalPersistedAt": "2026-09-30T00:54:37.567Z",
       "adanaStaticKnowledge": {
         "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
         "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
@@ -154,18 +151,17 @@
       },
       "staleAfterDays": 10,
       "sourcePlanId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN",
-      "sourcePlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V29",
-      "sourcePlanVersion": 29,
-      "currentPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V36",
-      "currentVersionNumber": 36,
-      "currentPlanApprovalStatus": "DRAFT",
-      "replacementStatus": "BLOCKED_NO_APPROVED_TRAINING",
-      "publishedPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V29",
+      "sourcePlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V50",
+      "sourcePlanVersion": 50,
+      "currentPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V50",
+      "currentVersionNumber": 50,
+      "currentPlanApprovalStatus": "COACH_APPROVED",
+      "replacementStatus": "CURRENT_APPROVED",
+      "publishedPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V50",
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
-      "blockedByCurrentPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V36",
       "publicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
       "portal": "nunes-janise/athlete.html",
-      "publishedAt": "2026-09-30T00:11:32.859Z"
+      "publishedAt": "2026-09-30T00:55:51.709Z"
     }
   ]
 }

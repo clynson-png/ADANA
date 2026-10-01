@@ -1,8 +1,8 @@
 {
   "schema": "HCI_ATHLETE_PORTAL_PUBLICATION_MANIFEST_V1",
-  "generatedAt": "2026-09-30T00:55:51.709Z",
+  "generatedAt": "2026-10-01T02:31:22.736Z",
   "sourceAuthority": "HCI20_LOCAL_CANONICAL_SQLITE",
-  "athleteCount": 3,
+  "athleteCount": 4,
   "portals": [
     {
       "athleteName": "LEAD LOCAL TEST",
@@ -162,6 +162,62 @@
       "publicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
       "portal": "nunes-janise/athlete.html",
       "publishedAt": "2026-09-30T00:55:51.709Z"
+    },
+    {
+      "athleteName": "DOURAdo, marina",
+      "slug": "dourado-marina",
+      "modality": "PISTOL",
+      "sessions": 6,
+      "predictedNext": 533.67,
+      "predictionMethod": "LOGARITHMIC_TREND",
+      "trainingExportScope": {
+        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
+        "status": "NEEDS_COACH_WINDOW_REVIEW",
+        "labelPt": "7 treinos publicados - janela a revisar pelo coach",
+        "labelEn": "7 published trainings - coach window review required",
+        "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
+        "calendarScopeReliable": false,
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-09",
+        "daySpan": 5,
+        "weekSpan": 1,
+        "monthSpan": 1,
+        "sessionCount": 7,
+        "technicalCount": 5,
+        "physicalCount": 0,
+        "mentalCount": 2,
+        "domains": [
+          {
+            "domain": "MENTAL",
+            "count": 2
+          },
+          {
+            "domain": "TECHNICAL",
+            "count": 5
+          }
+        ]
+      },
+      "portalPersistedAt": "2026-10-01T02:30:32.937Z",
+      "adanaStaticKnowledge": {
+        "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
+        "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
+        "modality": "PISTOL",
+        "questionGuideCount": 126,
+        "selectedSourceChunkCount": 94
+      },
+      "staleAfterDays": 10,
+      "sourcePlanId": "DOURADO_MARINA_PRE_COMPETITION_PLAN",
+      "sourcePlanVersionId": "DOURADO_MARINA_PRE_COMPETITION_PLAN_V6",
+      "sourcePlanVersion": 6,
+      "currentPlanVersionId": "DOURADO_MARINA_PRE_COMPETITION_PLAN_V6",
+      "currentVersionNumber": 6,
+      "currentPlanApprovalStatus": "COACH_APPROVED",
+      "replacementStatus": "CURRENT_APPROVED",
+      "publishedPlanVersionId": "DOURADO_MARINA_PRE_COMPETITION_PLAN_V6",
+      "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/dourado-marina/athlete.html",
+      "publicationUrl": "https://clynson-png.github.io/ADANA/dourado-marina/athlete.html",
+      "portal": "dourado-marina/athlete.html",
+      "publishedAt": "2026-10-01T02:31:22.736Z"
     }
   ]
 }

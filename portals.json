@@ -1,6 +1,6 @@
 {
   "schema": "HCI_ATHLETE_PORTAL_PUBLICATION_MANIFEST_V1",
-  "generatedAt": "2026-10-01T11:57:05.110Z",
+  "generatedAt": "2026-10-02T15:52:13.065Z",
   "sourceAuthority": "HCI20_LOCAL_CANONICAL_SQLITE",
   "athleteCount": 5,
   "portals": [
@@ -52,11 +52,11 @@
       "predictionMethod": "LOGARITHMIC_TREND",
       "trainingExportScope": {
         "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
-        "status": "NEEDS_COACH_WINDOW_REVIEW",
-        "labelPt": "12 treinos publicados - janela a revisar pelo coach",
-        "labelEn": "12 published trainings - coach window review required",
-        "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
-        "calendarScopeReliable": false,
+        "status": "READY_FOR_COACH_REVIEW",
+        "labelPt": "1 semana de treino",
+        "labelEn": "1 training week",
+        "dateBasis": "SESSION_SCHEDULE",
+        "calendarScopeReliable": true,
         "startDate": "2026-08-17",
         "endDate": "2026-08-23",
         "daySpan": 7,
@@ -85,7 +85,7 @@
           }
         ]
       },
-      "portalPersistedAt": "2026-09-30T00:54:37.567Z",
+      "portalPersistedAt": "2026-10-01T19:32:27.016Z",
       "adanaStaticKnowledge": {
         "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
         "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
@@ -105,63 +105,7 @@
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
       "publicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
       "portal": "chateubrian/athlete.html",
-      "publishedAt": "2026-09-30T00:55:51.709Z"
-    },
-    {
-      "athleteName": "NUNES, JANISE",
-      "slug": "nunes-janise",
-      "modality": "PISTOL",
-      "sessions": 4,
-      "predictedNext": 478.35,
-      "predictionMethod": "LOGARITHMIC_TREND",
-      "trainingExportScope": {
-        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
-        "status": "NEEDS_COACH_WINDOW_REVIEW",
-        "labelPt": "7 treinos publicados - janela a revisar pelo coach",
-        "labelEn": "7 published trainings - coach window review required",
-        "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
-        "calendarScopeReliable": false,
-        "startDate": "2026-09-28",
-        "endDate": "2026-10-04",
-        "daySpan": 7,
-        "weekSpan": 1,
-        "monthSpan": 2,
-        "sessionCount": 7,
-        "technicalCount": 5,
-        "physicalCount": 0,
-        "mentalCount": 2,
-        "domains": [
-          {
-            "domain": "MENTAL",
-            "count": 2
-          },
-          {
-            "domain": "TECHNICAL",
-            "count": 5
-          }
-        ]
-      },
-      "portalPersistedAt": "2026-09-30T00:54:37.567Z",
-      "adanaStaticKnowledge": {
-        "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
-        "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
-        "modality": "PISTOL",
-        "questionGuideCount": 126,
-        "selectedSourceChunkCount": 94
-      },
-      "staleAfterDays": 10,
-      "sourcePlanId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN",
-      "sourcePlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V50",
-      "sourcePlanVersion": 50,
-      "currentPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V50",
-      "currentVersionNumber": 50,
-      "currentPlanApprovalStatus": "COACH_APPROVED",
-      "replacementStatus": "CURRENT_APPROVED",
-      "publishedPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V50",
-      "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
-      "publicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
-      "portal": "nunes-janise/athlete.html",
-      "publishedAt": "2026-09-30T00:55:51.709Z"
+      "publishedAt": "2026-10-02T15:52:13.065Z"
     },
     {
       "athleteName": "DOURAdo, marina",
@@ -172,11 +116,11 @@
       "predictionMethod": "LOGARITHMIC_TREND",
       "trainingExportScope": {
         "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
-        "status": "NEEDS_COACH_WINDOW_REVIEW",
-        "labelPt": "7 treinos publicados - janela a revisar pelo coach",
-        "labelEn": "7 published trainings - coach window review required",
-        "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
-        "calendarScopeReliable": false,
+        "status": "READY_FOR_COACH_REVIEW",
+        "labelPt": "1 semana de treino",
+        "labelEn": "1 training week",
+        "dateBasis": "SESSION_SCHEDULE",
+        "calendarScopeReliable": true,
         "startDate": "2026-10-05",
         "endDate": "2026-10-09",
         "daySpan": 5,
@@ -197,7 +141,7 @@
           }
         ]
       },
-      "portalPersistedAt": "2026-10-01T02:30:32.937Z",
+      "portalPersistedAt": "2026-10-01T19:32:27.016Z",
       "adanaStaticKnowledge": {
         "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
         "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
@@ -217,22 +161,78 @@
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/dourado-marina/athlete.html",
       "publicationUrl": "https://clynson-png.github.io/ADANA/dourado-marina/athlete.html",
       "portal": "dourado-marina/athlete.html",
-      "publishedAt": "2026-10-01T02:31:22.736Z"
+      "publishedAt": "2026-10-02T15:52:13.065Z"
+    },
+    {
+      "athleteName": "NUNES, JANISE",
+      "slug": "nunes-janise",
+      "modality": "PISTOL",
+      "sessions": 4,
+      "predictedNext": 478.35,
+      "predictionMethod": "LOGARITHMIC_TREND",
+      "trainingExportScope": {
+        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
+        "status": "READY_FOR_COACH_REVIEW",
+        "labelPt": "1 semana de treino",
+        "labelEn": "1 training week",
+        "dateBasis": "SESSION_SCHEDULE",
+        "calendarScopeReliable": true,
+        "startDate": "2026-09-28",
+        "endDate": "2026-10-04",
+        "daySpan": 7,
+        "weekSpan": 1,
+        "monthSpan": 2,
+        "sessionCount": 7,
+        "technicalCount": 5,
+        "physicalCount": 0,
+        "mentalCount": 2,
+        "domains": [
+          {
+            "domain": "MENTAL",
+            "count": 2
+          },
+          {
+            "domain": "TECHNICAL",
+            "count": 5
+          }
+        ]
+      },
+      "portalPersistedAt": "2026-10-01T19:32:27.016Z",
+      "adanaStaticKnowledge": {
+        "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
+        "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
+        "modality": "PISTOL",
+        "questionGuideCount": 126,
+        "selectedSourceChunkCount": 94
+      },
+      "staleAfterDays": 10,
+      "sourcePlanId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN",
+      "sourcePlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V50",
+      "sourcePlanVersion": 50,
+      "currentPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V50",
+      "currentVersionNumber": 50,
+      "currentPlanApprovalStatus": "COACH_APPROVED",
+      "replacementStatus": "CURRENT_APPROVED",
+      "publishedPlanVersionId": "NUNES_JANISE_SPECIFIC_PREPARATION_PLAN_V50",
+      "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
+      "publicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
+      "portal": "nunes-janise/athlete.html",
+      "publishedAt": "2026-10-02T15:52:13.065Z"
     },
     {
       "athleteName": "campos, fabio",
       "slug": "campos-fabio",
       "modality": "RIFLE",
-      "sessions": 7,
-      "predictedNext": 623.14,
+      "sessions": 8,
+      "predictedNext": 622.07,
       "predictionMethod": "LOGARITHMIC_TREND",
       "trainingExportScope": {
         "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
-        "status": "NEEDS_COACH_WINDOW_REVIEW",
-        "labelPt": "20 treinos publicados - janela a revisar pelo coach",
-        "labelEn": "20 published trainings - coach window review required",
-        "dateBasis": "PUBLISH_TIMESTAMP_FALLBACK",
-        "calendarScopeReliable": false,
+        "status": "READY_FOR_COACH_REVIEW",
+        "labelPt": "1 semana de treino",
+        "labelEn": "1 training week",
+        "dateBasis": "SESSION_SCHEDULE",
+        "calendarScopeReliable": true,
         "startDate": "2026-09-28",
         "endDate": "2026-10-04",
         "daySpan": 7,
@@ -257,7 +257,7 @@
           }
         ]
       },
-      "portalPersistedAt": "2026-10-01T11:55:10.467Z",
+      "portalPersistedAt": "2026-10-01T19:32:27.016Z",
       "adanaStaticKnowledge": {
         "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
         "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
@@ -277,7 +277,7 @@
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/campos-fabio/athlete.html",
       "publicationUrl": "https://clynson-png.github.io/ADANA/campos-fabio/athlete.html",
       "portal": "campos-fabio/athlete.html",
-      "publishedAt": "2026-10-01T11:57:05.110Z"
+      "publishedAt": "2026-10-02T15:52:13.065Z"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schema": "HCI_ATHLETE_PORTAL_PUBLICATION_MANIFEST_V1",
-  "generatedAt": "2026-10-02T16:14:37.110Z",
+  "generatedAt": "2026-10-02T16:58:52.420Z",
   "sourceAuthority": "HCI20_LOCAL_CANONICAL_SQLITE",
-  "athleteCount": 6,
+  "athleteCount": 7,
   "portals": [
     {
       "athleteName": "LEAD LOCAL TEST",
@@ -42,6 +42,62 @@
       "publicationUrl": "https://clynson-png.github.io/ADANA/lead-local-test/athlete.html",
       "portal": "lead-local-test/athlete.html",
       "publishedAt": "2026-09-23T20:46:46.047Z"
+    },
+    {
+      "athleteName": "lima, eliana",
+      "slug": "lima-eliana",
+      "modality": "RIFLE",
+      "sessions": 3,
+      "predictedNext": 534.69,
+      "predictionMethod": "LOGARITHMIC_TREND",
+      "trainingExportScope": {
+        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
+        "status": "READY_FOR_COACH_REVIEW",
+        "labelPt": "1 semana de treino",
+        "labelEn": "1 training week",
+        "dateBasis": "SESSION_SCHEDULE",
+        "calendarScopeReliable": true,
+        "startDate": "2026-09-28",
+        "endDate": "2026-10-04",
+        "daySpan": 7,
+        "weekSpan": 1,
+        "monthSpan": 2,
+        "sessionCount": 6,
+        "technicalCount": 5,
+        "physicalCount": 0,
+        "mentalCount": 1,
+        "domains": [
+          {
+            "domain": "MENTAL",
+            "count": 1
+          },
+          {
+            "domain": "TECHNICAL",
+            "count": 5
+          }
+        ]
+      },
+      "portalPersistedAt": "2026-10-02T16:13:33.644Z",
+      "adanaStaticKnowledge": {
+        "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
+        "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
+        "modality": "RIFLE",
+        "questionGuideCount": 126,
+        "selectedSourceChunkCount": 86
+      },
+      "staleAfterDays": 10,
+      "sourcePlanId": "LIMA_ELIANA_SPECIFIC_PREPARATION_PLAN",
+      "sourcePlanVersionId": "LIMA_ELIANA_SPECIFIC_PREPARATION_PLAN_V19",
+      "sourcePlanVersion": 19,
+      "currentPlanVersionId": "LIMA_ELIANA_SPECIFIC_PREPARATION_PLAN_V19",
+      "currentVersionNumber": 19,
+      "currentPlanApprovalStatus": "COACH_APPROVED",
+      "replacementStatus": "CURRENT_APPROVED",
+      "publishedPlanVersionId": "LIMA_ELIANA_SPECIFIC_PREPARATION_PLAN_V19",
+      "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/lima-eliana/athlete.html",
+      "publicationUrl": "https://clynson-png.github.io/ADANA/lima-eliana/athlete.html",
+      "portal": "lima-eliana/athlete.html",
+      "publishedAt": "2026-10-02T16:14:37.110Z"
     },
     {
       "athleteName": "CHATEUBRIAN, PHILIPE",
@@ -105,7 +161,7 @@
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
       "publicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
       "portal": "chateubrian/athlete.html",
-      "publishedAt": "2026-10-02T15:52:13.065Z"
+      "publishedAt": "2026-10-02T16:58:52.420Z"
     },
     {
       "athleteName": "DOURAdo, marina",
@@ -161,7 +217,7 @@
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/dourado-marina/athlete.html",
       "publicationUrl": "https://clynson-png.github.io/ADANA/dourado-marina/athlete.html",
       "portal": "dourado-marina/athlete.html",
-      "publishedAt": "2026-10-02T15:52:13.065Z"
+      "publishedAt": "2026-10-02T16:58:52.420Z"
     },
     {
       "athleteName": "NUNES, JANISE",
@@ -217,7 +273,7 @@
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
       "publicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
       "portal": "nunes-janise/athlete.html",
-      "publishedAt": "2026-10-02T15:52:13.065Z"
+      "publishedAt": "2026-10-02T16:58:52.420Z"
     },
     {
       "athleteName": "campos, fabio",
@@ -277,14 +333,14 @@
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/campos-fabio/athlete.html",
       "publicationUrl": "https://clynson-png.github.io/ADANA/campos-fabio/athlete.html",
       "portal": "campos-fabio/athlete.html",
-      "publishedAt": "2026-10-02T15:52:13.065Z"
+      "publishedAt": "2026-10-02T16:58:52.420Z"
     },
     {
-      "athleteName": "lima, eliana",
-      "slug": "lima-eliana",
+      "athleteName": "SILVA, EMERSON",
+      "slug": "silva-emerson",
       "modality": "RIFLE",
-      "sessions": 3,
-      "predictedNext": 534.69,
+      "sessions": 6,
+      "predictedNext": 626.72,
       "predictionMethod": "LOGARITHMIC_TREND",
       "trainingExportScope": {
         "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
@@ -298,22 +354,26 @@
         "daySpan": 7,
         "weekSpan": 1,
         "monthSpan": 2,
-        "sessionCount": 6,
-        "technicalCount": 5,
-        "physicalCount": 0,
-        "mentalCount": 1,
+        "sessionCount": 13,
+        "technicalCount": 7,
+        "physicalCount": 4,
+        "mentalCount": 2,
         "domains": [
           {
             "domain": "MENTAL",
-            "count": 1
+            "count": 2
+          },
+          {
+            "domain": "NEUROMUSCULAR",
+            "count": 4
           },
           {
             "domain": "TECHNICAL",
-            "count": 5
+            "count": 7
           }
         ]
       },
-      "portalPersistedAt": "2026-10-02T16:13:33.644Z",
+      "portalPersistedAt": "2026-10-02T16:57:12.164Z",
       "adanaStaticKnowledge": {
         "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
         "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
@@ -322,18 +382,18 @@
         "selectedSourceChunkCount": 86
       },
       "staleAfterDays": 10,
-      "sourcePlanId": "LIMA_ELIANA_SPECIFIC_PREPARATION_PLAN",
-      "sourcePlanVersionId": "LIMA_ELIANA_SPECIFIC_PREPARATION_PLAN_V19",
-      "sourcePlanVersion": 19,
-      "currentPlanVersionId": "LIMA_ELIANA_SPECIFIC_PREPARATION_PLAN_V19",
-      "currentVersionNumber": 19,
+      "sourcePlanId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN",
+      "sourcePlanVersionId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN_V3",
+      "sourcePlanVersion": 3,
+      "currentPlanVersionId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN_V3",
+      "currentVersionNumber": 3,
       "currentPlanApprovalStatus": "COACH_APPROVED",
       "replacementStatus": "CURRENT_APPROVED",
-      "publishedPlanVersionId": "LIMA_ELIANA_SPECIFIC_PREPARATION_PLAN_V19",
-      "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/lima-eliana/athlete.html",
-      "publicationUrl": "https://clynson-png.github.io/ADANA/lima-eliana/athlete.html",
-      "portal": "lima-eliana/athlete.html",
-      "publishedAt": "2026-10-02T16:14:37.110Z"
+      "publishedPlanVersionId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN_V3",
+      "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/silva-emerson/athlete.html",
+      "publicationUrl": "https://clynson-png.github.io/ADANA/silva-emerson/athlete.html",
+      "portal": "silva-emerson/athlete.html",
+      "publishedAt": "2026-10-02T16:58:52.420Z"
     }
   ]
 }

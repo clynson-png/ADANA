@@ -1,6 +1,6 @@
 {
   "schema": "HCI_ATHLETE_PORTAL_PUBLICATION_MANIFEST_V1",
-  "generatedAt": "2026-10-02T16:58:52.420Z",
+  "generatedAt": "2026-10-02T17:25:28.117Z",
   "sourceAuthority": "HCI20_LOCAL_CANONICAL_SQLITE",
   "athleteCount": 7,
   "portals": [
@@ -339,8 +339,8 @@
       "athleteName": "SILVA, EMERSON",
       "slug": "silva-emerson",
       "modality": "RIFLE",
-      "sessions": 6,
-      "predictedNext": 626.72,
+      "sessions": 3,
+      "predictedNext": 630.68,
       "predictionMethod": "LOGARITHMIC_TREND",
       "trainingExportScope": {
         "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
@@ -354,8 +354,8 @@
         "daySpan": 7,
         "weekSpan": 1,
         "monthSpan": 2,
-        "sessionCount": 13,
-        "technicalCount": 7,
+        "sessionCount": 12,
+        "technicalCount": 6,
         "physicalCount": 4,
         "mentalCount": 2,
         "domains": [
@@ -369,11 +369,11 @@
           },
           {
             "domain": "TECHNICAL",
-            "count": 7
+            "count": 6
           }
         ]
       },
-      "portalPersistedAt": "2026-10-02T16:57:12.164Z",
+      "portalPersistedAt": "2026-10-02T17:23:09.826Z",
       "adanaStaticKnowledge": {
         "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
         "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
@@ -383,17 +383,17 @@
       },
       "staleAfterDays": 10,
       "sourcePlanId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN",
-      "sourcePlanVersionId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN_V3",
-      "sourcePlanVersion": 3,
-      "currentPlanVersionId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN_V3",
-      "currentVersionNumber": 3,
+      "sourcePlanVersionId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN_V2",
+      "sourcePlanVersion": 2,
+      "currentPlanVersionId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN_V2",
+      "currentVersionNumber": 2,
       "currentPlanApprovalStatus": "COACH_APPROVED",
       "replacementStatus": "CURRENT_APPROVED",
-      "publishedPlanVersionId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN_V3",
+      "publishedPlanVersionId": "SILVA_EMERSON_SPECIFIC_PREPARATION_PLAN_V2",
       "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/silva-emerson/athlete.html",
       "publicationUrl": "https://clynson-png.github.io/ADANA/silva-emerson/athlete.html",
       "portal": "silva-emerson/athlete.html",
-      "publishedAt": "2026-10-02T16:58:52.420Z"
+      "publishedAt": "2026-10-02T17:25:28.117Z"
     }
   ]
 }

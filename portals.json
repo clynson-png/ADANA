@@ -1,6 +1,6 @@
 {
   "schema": "HCI_ATHLETE_PORTAL_PUBLICATION_MANIFEST_V1",
-  "generatedAt": "2026-10-25T10:39:27.944Z",
+  "generatedAt": "2026-11-10T21:47:17.885Z",
   "sourceAuthority": "HCI20_LOCAL_CANONICAL_SQLITE",
   "athleteCount": 7,
   "portals": [
@@ -98,70 +98,6 @@
       "publicationUrl": "https://clynson-png.github.io/ADANA/lima-eliana/athlete.html",
       "portal": "lima-eliana/athlete.html",
       "publishedAt": "2026-10-02T16:14:37.110Z"
-    },
-    {
-      "athleteName": "CHATEUBRIAN, PHILIPE",
-      "slug": "chateubrian",
-      "modality": "PISTOL",
-      "sessions": 7,
-      "predictedNext": 575.22,
-      "predictionMethod": "LOGARITHMIC_TREND",
-      "trainingExportScope": {
-        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
-        "status": "READY_FOR_COACH_REVIEW",
-        "labelPt": "1 semana de treino",
-        "labelEn": "1 training week",
-        "dateBasis": "SESSION_SCHEDULE",
-        "calendarScopeReliable": true,
-        "startDate": "2026-08-17",
-        "endDate": "2026-08-23",
-        "daySpan": 7,
-        "weekSpan": 1,
-        "monthSpan": 1,
-        "sessionCount": 12,
-        "technicalCount": 7,
-        "physicalCount": 4,
-        "mentalCount": 1,
-        "domains": [
-          {
-            "domain": "AEROBIC",
-            "count": 2
-          },
-          {
-            "domain": "MENTAL",
-            "count": 1
-          },
-          {
-            "domain": "NEUROMUSCULAR",
-            "count": 2
-          },
-          {
-            "domain": "TECHNICAL",
-            "count": 7
-          }
-        ]
-      },
-      "portalPersistedAt": "2026-10-01T19:32:27.016Z",
-      "adanaStaticKnowledge": {
-        "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
-        "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
-        "modality": "PISTOL",
-        "questionGuideCount": 126,
-        "selectedSourceChunkCount": 94
-      },
-      "staleAfterDays": 10,
-      "sourcePlanId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN",
-      "sourcePlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V32",
-      "sourcePlanVersion": 32,
-      "currentPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V32",
-      "currentVersionNumber": 32,
-      "currentPlanApprovalStatus": "COACH_APPROVED",
-      "replacementStatus": "CURRENT_APPROVED",
-      "publishedPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V32",
-      "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
-      "publicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
-      "portal": "chateubrian/athlete.html",
-      "publishedAt": "2026-10-02T16:58:52.420Z"
     },
     {
       "athleteName": "DOURAdo, marina",
@@ -394,6 +330,66 @@
       "publicationUrl": "https://clynson-png.github.io/ADANA/nunes-janise/athlete.html",
       "portal": "nunes-janise/athlete.html",
       "publishedAt": "2026-10-25T10:39:27.944Z"
+    },
+    {
+      "athleteName": "CHATEUBRIAN, PHILIPE",
+      "slug": "chateubrian",
+      "modality": "PISTOL",
+      "sessions": 11,
+      "predictedNext": 573.32,
+      "predictionMethod": "LOGARITHMIC_TREND",
+      "trainingExportScope": {
+        "contract": "HCI_ATHLETE_PORTAL_EXPORT_SCOPE_V1",
+        "status": "READY_FOR_COACH_REVIEW",
+        "labelPt": "1 semana de treino",
+        "labelEn": "1 training week",
+        "dateBasis": "SESSION_SCHEDULE",
+        "calendarScopeReliable": true,
+        "startDate": "2026-11-08",
+        "endDate": "2026-11-14",
+        "daySpan": 7,
+        "weekSpan": 1,
+        "monthSpan": 1,
+        "sessionCount": 12,
+        "technicalCount": 7,
+        "physicalCount": 4,
+        "mentalCount": 1,
+        "domains": [
+          {
+            "domain": "MENTAL",
+            "count": 1
+          },
+          {
+            "domain": "NEUROMUSCULAR",
+            "count": 4
+          },
+          {
+            "domain": "TECHNICAL",
+            "count": 7
+          }
+        ]
+      },
+      "portalPersistedAt": "2026-11-10T21:46:15.575Z",
+      "adanaStaticKnowledge": {
+        "status": "PUBLISHED_WITH_AUTHORIZED_ATHLETE_PORTAL",
+        "schema": "ADANA_STATIC_PORTAL_N2_1_KNOWLEDGE_V1",
+        "modality": "PISTOL",
+        "questionGuideCount": 126,
+        "selectedSourceChunkCount": 94
+      },
+      "staleAfterDays": 10,
+      "sourcePlanId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN",
+      "sourcePlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V35",
+      "sourcePlanVersion": 35,
+      "currentPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V35",
+      "currentVersionNumber": 35,
+      "currentPlanApprovalStatus": "COACH_APPROVED",
+      "replacementStatus": "CURRENT_APPROVED",
+      "publishedPlanVersionId": "CHATEUBRIAN_PHILIPE_COMPETITION_PLAN_V35",
+      "publishedPublicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
+      "publicationUrl": "https://clynson-png.github.io/ADANA/chateubrian/athlete.html",
+      "portal": "chateubrian/athlete.html",
+      "publishedAt": "2026-11-10T21:47:17.885Z"
     }
   ]
 }
